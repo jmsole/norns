@@ -162,9 +162,9 @@ void screen_init(void) {
     strcpy(font_path[11],"Roboto-MediumItalic.ttf");
     strcpy(font_path[12],"Roboto-BoldItalic.ttf");
     strcpy(font_path[13],"Roboto-BlackItalic.ttf");
-    strcpy(font_path[14],"TeletypeThree");
-    strcpy(font_path[15],"TeletypeFour");
-    strcpy(font_path[16],"TeletypeFive");
+    strcpy(font_path[14],"TeletypeThree.ttf");
+    strcpy(font_path[15],"TeletypeFour.ttf");
+    strcpy(font_path[16],"TeletypeFive.ttf");
 
     char filename[256];
 
