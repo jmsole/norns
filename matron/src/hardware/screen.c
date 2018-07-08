@@ -21,7 +21,7 @@
 #define CHECK_CRR if (cr == NULL) {return 0; }
 #endif
 
-#define NUM_FONTS 14
+#define NUM_FONTS 17
 static char font_path[NUM_FONTS][32];
 
 static float c[16] =
@@ -162,6 +162,9 @@ void screen_init(void) {
     strcpy(font_path[11],"Roboto-MediumItalic.ttf");
     strcpy(font_path[12],"Roboto-BoldItalic.ttf");
     strcpy(font_path[13],"Roboto-BlackItalic.ttf");
+    strcpy(font_path[14],"TeletypeThree");
+    strcpy(font_path[15],"TeletypeFour");
+    strcpy(font_path[16],"TeletypeFive");
 
     char filename[256];
 
